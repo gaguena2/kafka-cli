@@ -7,8 +7,7 @@ import (
 )
 
 func main() {
-
-	err := cmd.Execute()
+	err := cmd.CreateCommand()
 
 	if err != nil {
 		fmt.Println(err)
